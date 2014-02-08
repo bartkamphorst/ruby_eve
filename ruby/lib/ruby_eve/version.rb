@@ -1,3 +1,3 @@
-module Eve
+module RubyEve
   VERSION = "0.0.1"
 end

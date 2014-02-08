@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'eve/version'
+require 'ruby_eve/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "eve"
-  spec.version       = Eve::VERSION
+  spec.name          = "ruby_eve"
+  spec.version       = RubyEve::VERSION
   spec.authors       = ["Bart Kamphorst", "Arlette van Wissen"]
   spec.email         = ["eve@kamphorst.com"]
   spec.summary       = %q{Ruby implementation of Eve Agent.}
   spec.description   = %q{Ruby implementation of Eve Agent.}
-  spec.homepage      = "https://github.com/bartkamphorst/eve"
+  spec.homepage      = "https://github.com/bartkamphorst/ruby_eve"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
