@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'json'
-gem 'jimson'
+gem "json", "~> 1.8.1"
+gem "jimson", "~> 0.10.0"
 # Specify your gem's dependencies in ruby_eve.gemspec
 gemspec
