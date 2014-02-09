@@ -1,5 +1,4 @@
 require "ruby_eve/version"
+require "ruby_eve/agent"
 
-module RubyEve
-  # Your code goes here...
-end
+require 'json'

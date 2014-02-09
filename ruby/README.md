@@ -1,6 +1,6 @@
-# Ruby implementation of Eve
+# Ruby implementation of [Eve Agents](http://eve.almende.com/)
 
-TODO: Write a gem description
+This is a simple Ruby implementation of Eve agents. It depends on the [Jimson](https://github.com/chriskite/jimson) JSON-RPC library.
 
 ## Installation
 
@@ -18,7 +18,19 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Creating your own agent
+Subclass the RubyEve::Agent class and define your methods. These methods will automatically be available via JSON-RPC.
+
+```ruby
+class SummingAgent < RubyEve::Agent
+  def sum(a,b)
+    a + b
+  end
+end
+
+agent = SummingAgent.new
+agent.start # Start the webbrick webserver and listen for requests.
+```
 
 ## Contributing
 
