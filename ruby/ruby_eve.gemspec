@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Bart Kamphorst", "Arlette van Wissen"]
   spec.email         = ["eve@kamphorst.com"]
   spec.summary       = %q{Ruby implementation of Eve Agent.}
-  spec.description   = %q{Ruby implementation of Eve Agent.}
+  spec.description   = %q{Ruby implementation of Eve Agent. See http://eve.almende.com/ }
   spec.homepage      = "https://github.com/bartkamphorst/ruby_eve"
   spec.license       = "MIT"
 
@@ -19,6 +19,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.5"
-  spec.add_development_dependency "rake", "~> 10.0.3"
-  spec.add_development_dependency "rspec", "~> 2.14.1"
+  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rspec", "~> 2.14"
 end
